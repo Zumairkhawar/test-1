@@ -1,0 +1,70 @@
+::placeholder {
+    color: white !important;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: white !important;
+  }
+.nav{
+    background: #081f3e;
+    color: #212529;
+}
+.b-t-n{
+    background-color: orangered;
+    color: white;
+}
+.b-t-n:hover{
+    background-color: white;
+    color: #000;
+    transition: 0.50s;
+}
+.left-part{
+    background: #0b3266;   
+    width: 100%; 
+}
+.right-part{
+    background-color: blue;
+}
+.sec-1-part-b{
+    position: absolute;
+    bottom: 50px;
+}
+.sec-2{
+   margin-top: 20px;
+}
+.murch{
+    display: flex;
+    justify-content: space-evenly;
+}
+.g-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  .g-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .g-item-bg {
+    background-color:rgba(0, 255, 255, 0.506);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    color: #fff;
+    display: flex;    
+    align-items: self-start;
+    justify-content: end;
+    flex-direction: column;
+    text-transform: uppercase;
+    transform: translateY(100%);
+    transition: 0.3s all ease-in-out;
+  }
+  .g-item:hover .g-item-bg {
+    transform: translateY(0);
+  }  

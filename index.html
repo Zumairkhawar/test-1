@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css" integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="top-header sticky-top">
+        <nav class="navbar navbar-expand-lg nav">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="img/logo.webp" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-auto mb-2 d-flex justify-content-evenly">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Home</a></li>
+                      <li><a class="dropdown-item" href="about-us.html">About</a></li>
+                      <li><a class="dropdown-item" href="#">Services</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="about-us.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <button class=" p-2 b-t-n">FOR EMERGENCIES CLICK HERE</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="sec-1">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card text-bg-dark" style="border:0px;">
+                   <img src="img/breadcumb1.jpg.webp" class="card-img" height="650">
+                   <div class="card-img-overlay col-xl-6" style="margin-top: 170px; margin-left:80px;">
+                    <div class="container">
+                     <h5 class="card-title text-dark fs-1">Medical Services That <br>You Can Trust 100%</h5>
+                     <p class="card-text text-dark">This is a wider card with supporting text below as.</p>
+                     <button class="bg-info p-2" style="border: 0px; color: #fff;"><h5>Discover medifile</h5></button><button class="text-bg-dark p-2 pe-3 ps-3" style="border: 0px; color: #fff;"><h5>+</h5></button>
+                     </div>
+                   </div>
+                 </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card text-bg-dark" style="border:0px;">
+                 <img src="img/breadcumb3.jpg.webp" class="card-img" height="650">
+                 <div class="card-img-overlay col-xl-6" style="margin-top: 170px; margin-left:80px;">
+                    <div class="container">
+                   <h5 class="card-title text-dark fs-1">Medical Services That <br> You Can Trust 100%</h5>
+                   <p class="card-text text-dark">This is a wider card with supporting text below as.</p>
+                   <button class="bg-info p-2" style="border: 0px; color: #fff;"><h5>Discover medifile</h5></button><button class="text-bg-dark p-2 pe-3 ps-3" style="border: 0px; color: #fff;"><h5>+</h5></button>
+                   </div>
+                 </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card text-bg-dark" style="border:0px;">
+                  <img src="img/hero1.jpg.webp" class="card-img" height="550">
+                  <div class="card-img-overlay col-xl-6" style="margin-top: 170px; margin-left:80px;">
+                    <div class="container">
+                    <h5 class="card-title text-dark fs-1">Medical Services That <br> You Can Trust 100% </h5>
+                    <p class="card-text text-dark">This is a wider card with supporting text text-white below as.</p>
+                    <button class="bg-info p-2" style="border: 0px; color: #fff;"><h5>Discover medifile</h5></button><button class="text-bg-dark p-2 pe-3 ps-3" style="border: 0px; color: #fff;"><h5>+</h5></button>
+                  </div>
+                </div>
+                </div>
+            </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <section class="sec-1-part-b" style="position: relative;">
+                        <div class="container">
+                          <div class="row">
+                          <div class="col-xl-8">
+                            <div class="left-part p-5">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-xl-3">
+                                  <div class="input-group mb-3">
+                                    <button class="btn btn-outline-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="text-white">Speciality 1</i></button>
+                                    <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#" disabled selected>Speciality 1</a></li>
+                                  <li><a class="dropdown-item" href="#">Speciality 2</a></li>
+                                  <li><a class="dropdown-item" href="#">Speciality 3</a></li>
+                                  <li><a class="dropdown-item" href="#">Speciality 4</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-xl-3">
+                              <div class="input-group mb-3">
+                                <button class="btn btn-outline-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="text-white">Doctor 1</i></button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#" disabled selected>Doctor 1</a></li>
+                                  <li><a class="dropdown-item" href="#">Doctor 2</a></li>
+                                  <li><a class="dropdown-item" href="#">Doctor 3</a></li>
+                                  <li><a class="dropdown-item" href="#">Doctor 4</a></li>
+                                </ul>
+                                </div>
+                            </div>
+                              <div class="col-xl-3">
+                              <input type="text" class="form-control" placeholder="Date" style="background-color: transparent; color: #fff;" aria-label="Username">
+                            </div> 
+                            <div class="col-xl-3">
+                              <input type="text" class="form-control" placeholder="Date" style="background-color: transparent;color: #fff;" aria-label="Username">
+                            </div>                         
+                                </div>
+                                <div class="row">
+                                  <div class="col-xl-4">
+                                      <input type="text" class="form-control" placeholder="Date" style="background-color: transparent;color: #fff; border: 0px; border-bottom: 2px solid black;" aria-label="Username">
+                                  </div>
+                                  <div class="col-xl-4">
+                                      <input type="text" class="form-control ms-input" placeholder="Date" style="background-color: transparent;color: #fff; border: 0px; border-bottom: 2px solid black;" aria-label="Username" >
+                                  </div>
+                                  <div class="col-xl-4">
+                                      <input type="text" class="form-control" placeholder="Date" style="background-color: transparent;color: #fff; border: 0px; border-bottom: 2px solid black;" aria-label="Username">
+                                  </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-xl-8">
+                                  <textarea class="form-control mt-4" cols="30" rows="2 " style="background-color: transparent;color: #fff; border: 0px; border-bottom: 2px solid black;" aria-label="With textarea" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-xl-4">
+                                  <div class="murch"><button class="bg-info" style="margin-top: 42px; border: 0px; color: #fff;"><h5>Discover medifile</h5></button><button class="text-bg-dark p-2 pe-3 ps-3" style="border: 0px; color: #fff; margin-top: 42px;"><h5>+</h5></button></div>
+                                </div>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                            <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
+                    <div class="right-part p-1">
+                         <img src="img/alarm-clock.webp" alt="">
+                         <p class="text-white pt-1">Mon-Sat 08:00-21:00 <br>Sunday Closed</p>
+                         <p class="text-white"></p>
+                         <img src="img/envelope.webp" alt="">
+                         <p class="text-white pt-1">0080 673 729 766 <br>contact@business.com</p>
+                         <img src="img/map-pin.webp" alt="">
+                         <p class="text-white pt-2">Lamas Str,no 14-18 <br>41770 Miami</p>
+                        </div>
+                    </div>      
+              </div>
+            </div>
+        </div>
+    </section>
+   <section class="sec-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4">
+            <h2 class="fs-1">We always put <br>our patients first</h2>
+            <p style="text-align: left; margin-top: 25px;">Lorem ipsum dolor sit Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo explicabo dolor quibusdam exercitationem at dignissimos doloribus magnam, similique non quas distinctio libero, dolorem omnis. In natus illo voluptatem deserunt officiis. amet consectetur sunt sed placeat possimus enim mollitia eaque, porro numquam voluptatem qui at quia ipsam. Labore, exercitationem. culpa, odio ab dolorem repellat accusamus rerum sequi, quas, ea voluptatum laboriosam deleniti magni.</p>
+            <button class="bg-info p-2" style="border: 0px; color: #fff;"><h5>Discover medifile</h5></button><button class="text-bg-dark p-2 pe-3 ps-3" style="border: 0px; color: #fff;"><h5>+</h5></button>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+             <div class="cardss">            
+            <div class="murch">
+            <img src="img/user-solid.svg" width="50px" style="background-color: gainsboro; border-radius: 100px;">
+            <h5>The Best Doctors</h5>
+          </div>
+          </div>
+          <p class="ms-5 mt-4 text-centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nobis sunt commodi? Perspiciatis, cumque ut repellendus nobis odit cum sit aliquam </p>
+             <div class="cardss">          
+          <div class="murch">
+            <img src="img/user-solid.svg" width="50px" style="background-color: gainsboro; border-radius: 100px;">
+            <h5>The Best Doctors</h5>
+          </div>
+          </div>
+          <p class="ms-5 mt-4 text-centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nobis sunt commodi? Perspiciatis, cumque ut repellendus nobis odit cum sit aliquam </p>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+             <div class="cardss">            
+            <div class="murch">
+            <img src="img/user-solid.svg" width="50px" style="background-color: gainsboro; border-radius: 100px;">
+            <h5>The Best Doctors</h5>
+          </div>
+          </div>
+          <p class="ms-5 mt-4 text-centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nobis sunt commodi? Perspiciatis, cumque ut repellendus nobis odit cum sit aliquam </p>
+             <div class="cardss">          
+          <div class="murch">
+            <img src="img/user-solid.svg" width="50px" style="background-color: gainsboro; border-radius: 100px;">
+            <h5>The Best Doctors</h5>
+          </div>
+          </div>
+          <p class="ms-5 mt-4 text-centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nobis sunt commodi? Perspiciatis, cumque ut repellendus nobis odit cum sit aliquam </p>
+          </div>
+          </div>
+        </div>
+   </section>
+   <section class="sec-3 " style="margin-top: 80px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 p-2 mt-3">
+          <img src="img/syringe-solid.svg" width="30%" style="margin-left: 80px;">
+          <h3 class="fs-1" style="text-align: center;">5632</h3>
+          <h5 style="text-align: center;">Blood Donations</h5>
+          <p style="text-align: center;">Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 p-2">
+          <img src="img/microscope-solid.svg" width="30%" style="margin-left: 80px;">
+          <h3 class="fs-1" style="text-align: center;">23K</h3>
+          <h5 style="text-align: center;">Pacients</h5>
+          <p style="text-align: center;">Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 p-2">
+          <img src="img/vials-solid.svg" width="30%" style="margin-left: 80px;">
+          <h3 class="fs-1" style="text-align: center;">25</h3>
+          <h5 style="text-align: center;">Specialities</h5>
+          <p style="text-align: center;">Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 p-2">
+          <img src="img/syringe-solid.svg" width="30%" style="margin-left: 80px;">
+          <h3 class="fs-1" style="text-align: center;">723</h3>
+          <h5 style="text-align: center;">Doctors</h5>
+          <p style="text-align: center;">Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+        </div>
+      </div>
+    </div>
+   </section>
+   <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-0">
+          <div class="g-item" data-aos="fade-up" data-aos-duration="3000">
+            <img src="img/breadcumb1.jpg.webp" />
+            <div class="g-item-bg">
+              <div class="container">
+              <h4>See more +</h4>
+            </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-0">
+        <div class="g-item" data-aos="fade-up" data-aos-duration="3000">
+          <img src="img/breadcumb3.jpg.webp" />
+          <div class="g-item-bg">
+            <div class="container">
+            <h4>See more +</h4>
+          </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-0">
+      <div class="g-item" data-aos="fade-up" data-aos-duration="3000">
+        <img src="img/hero1.jpg.webp" />
+        <div class="g-item-bg">
+          <div class="container">
+          <h4>See more +</h4>
+        </div>
+        </div>
+    </div>
+  </div>
+  <div class="col-xl-3 col-lg-12 col-md-6 col-sm-12 p-0">
+    <div class="g-item" data-aos="fade-up" data-aos-duration="3000">
+      <img src="img/breadcumb1.jpg.webp">
+      <div class="g-item-bg">
+        <div class="container">
+        <h4>See more +</h4>
+      </div>
+      </div>
+  </div>
+</div>
+    </div>
+   </section>
+   <section class="sec-5">
+    <div class="container">
+      <div class="row">
+    <div class="mb-3 mt-5" style="height: 500px;">
+      <div class="row g-0">
+        <div class="col-xl-6 col-md-8">
+          <div class="card-body">
+            <h4 class="card-title fs-1">A new way to treat <br>pacients in a <br>revolutionary facility</h4>
+            <p class="card-text" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sequi corporis quae ullam enim, deleniti cupiditate dolorum, consequatur perferendis nam ipsum quis ratione, quidem doloribus aut repellendus reprehenderit necessitatibus maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, doloribus non similique optio laudantium aspernatur dolores molestias tenetur nostrum sint minus possimus? Itaque suscipit, autem modi animi fuga id consectetur? This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <button class="bg-info p-2" style="border: 0px; color: #fff;"><h5>Discover medifile</h5></button><button class="text-bg-dark p-2 pe-3 ps-3" style="border: 0px; color: #fff;"><h5>+</h5></button>
+          </div>
+        </div>
+        <div class="col-xl-6 col-md-4">
+          <img src="img/medical1.webp" class="img-fluid rounded-start" style="margin-top: 50px;">
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </section>
+  <section class="sec-6">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-4">
+                <div class="card text-bg-dark" style="border: 0px; position: relative;">
+                  <img src="img/1.webp" style="width: 100%; ">
+                  <div class="card-img-overlay">
+                    <button class="text-white bg-info"  style="border: 0px;">Jan 23,2018</button>
+                  </div>
+                </div>
+                <h4>New drog release soon</h4>
+                <p>Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+              </div>
+              <div class="col-xl-4">
+                <div class="card text-bg-dark" style="border: 0px; position: relative;">
+                  <img src="img/2.webp" style="width: 100%; ">
+                  <div class="card-img-overlay">
+                    <button class="text-white bg-info"  style="border: 0px;">Jan 23,2018</button>
+                  </div>
+                </div>
+                <h4>New drog release soon</h4>
+                <p>Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+              </div>
+              <div class="col-xl-4">
+                <div class="card text-bg-dark" style="border: 0px; position: relative;">
+                  <img src="img/3.webp" style="width: 100%; ">
+                  <div class="card-img-overlay">
+                    <button class="text-white bg-info"  style="border: 0px;">Jan 23,2018</button>
+                  </div>
+                </div>
+                <h4>New drog release soon</h4>
+                <p>Dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+              </div>
+              </div>
+            </div>
+          </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>
